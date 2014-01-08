@@ -19,7 +19,8 @@ body {
   background: #00ac77;
   border: none;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  z-index: 1; }
   .navbar-inverse .navbar-nav > li.icons a {
     font-size: 0px; }
   .navbar-inverse .navbar-nav > li a {
