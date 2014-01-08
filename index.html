@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="X Plus Z | Test page" />
+	<meta name="keywords" content="X Plus Z, game services, Game Services Company" />
+	<meta property="og:description" content="X Plus Z specializes in creating custom and SAAS-based game services for publishers and developers. Our team is founded by experienced architects and engineers who built central game services for notable projects such as EA Origin, EA Sports, Transformer Universe, and Epic Games. Our goal is to help publishers grow their top line and developers to focus on developing a great game.">
+	<meta property="og:type" content="website">    
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>X Plus Z | Test page</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body class="bs-docs-home" data-twttr-rendered="true">
+    <header class="navbar navbar-inverse bs-docs-nav container" role="banner">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a href="./" class="navbar-brand logo"></a>
+	    </div>
+	    <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation">
+	      <ul class="nav navbar-nav">
+	        <li class="first">
+	          <a href="#">Products</a>
+	        </li>
+	        <li>
+	          <a href="#">News</a>
+	        </li>
+	        <li>
+	          <a href="#">Community</a>
+	        </li>
+	        <li>
+	          <a href="#">Services</a>
+	        </li>
+	        <li>
+	          <a href="#">Partners</a>
+	        </li>
+	        <li>
+	          <a href="#">Download</a>
+	        </li>
+	        <li class="icons">
+	          <a href="#"><span class="search"></span></a>
+	        </li>
+	        <li class="icons">
+	          <a href="#"><span class="comment"></span></a>
+	        </li>
+	        <li class="icons">
+	          <a href="#"><span class="facebook"></span></a>
+	        </li>
+	        <li class="icons last">
+	          <a href="#"><span class="twitter"></span></a>
+	        </li>
+	      </ul>
+	    </nav>
+	  </div>
+	</header>
+   <main class="bs-masthead container" id="content" role="main">
+   	<!-- Slider start -->
+   	<div id="carousel-example-generic" class="carousel slide row" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+	  </ol>
+	
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner">
+	    <div class="item active">
+	      <img src="img/cat_1.jpg" alt="...">
+	    </div>
+	    <div class="item">
+	      <img src="img/cat_2.jpg" alt="...">
+	    </div>
+	    <div class="item">
+	      <img src="img/cat_3.jpg" alt="...">
+	    </div>
+	    <div class="item">
+	      <img src="img/cat_4.jpg" alt="...">
+	    </div>
+	    <div class="item">
+	      <img src="img/cat_5.jpg" alt="...">
+	    </div>
+	  </div>
+	
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left"></span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right"></span>
+	  </a>
+	</div>
+	<!-- Slider end -->
+	
+	<!-- Contents start -->
+	
+	<div class="contents row">
+		<div class="col-md-4">
+			<div class="item categories">
+				<h2 class="title">Categories</h2>
+				<ul class="nav bs-sidenav">
+					<li class="nav_item item_1"><span class="icon"></span><a href="#">Lorem Ipsum Dolor</a></li>
+					<li class="nav_item item_2"><span class="icon"></span><a href="#">Lorem Ipsum Dolor</a></li>
+					<li class="nav_item item_3"><span class="icon"></span><a href="#">Lorem Ipsum Dolor</a></li>
+					<li class="nav_item item_4"><span class="icon"></span><a href="#">Lorem Ipsum Dolor</a></li>
+					<li class="nav_item item_5"><span class="icon"></span><a href="#">Lorem Ipsum Dolor</a></li>
+				</ul>
+			</div>
+			<div class="item form" ng-controller="Controller">
+				<h2 class="title">form</h2>
+				<form novalidate role="form">
+				  <div class="form-group col-xs-12">
+				  	<label class="sr-only" for="yourName">Your Name</label>
+				    <input type="text" class="form-control" ng-model="user.yourName" id="yourName" placeholder="Your Name">
+				  </div>
+				  <div class="form-group col-xs-12">
+				  <label class="sr-only" for="companyName">Company Name</label>
+				    <input type="text" class="form-control" ng-model="user.companyName"id="companyName" placeholder="Company Name">
+				  </div>
+				  <div class="form-group col-xs-12">
+				  <label class="sr-only" for="position">Position/Title</label>
+				    <input type="text" class="form-control" ng-model="user.position" id="position" placeholder="Position/Title">
+				  </div>
+				  <div class="form-group col-xs-6">
+				    <label class="sr-only" for="email">Email</label>
+				    <input type="email" class="form-control" ng-model="user.email" id="email" placeholder="Email">
+				  </div>
+				  <div class="form-group col-xs-6">
+				    <label class="sr-only" for="phone">Phone</label>
+				    <input type="text" class="form-control" ng-model="user.phone" id="phone" placeholder="Phone">
+				  </div>
+				  <div class="form-group col-xs-6">
+				  <select class="form-control">
+				  	  <option value="" selected="selected">City</option>
+					  <option>Vancouver</option>
+					  <option>Burnaby</option>
+					  <option>Surrey</option>
+					  <option>Other</option>
+					</select>
+				  </div>
+				  <div class="form-group col-xs-6">
+				  <select class="form-control col-xs-6">
+				  	  <option value="" selected="selected">Country</option>
+					  <option>Canada</option>
+					  <option>US</option>
+					  <option>Other</option>
+					</select>
+				  </div>
+				  <div class="form-group col-xs-12">
+				  	<label class="sr-only" for="displayName">Your Name</label>
+				    <input type="text" class="form-control" id="displayName" placeholder="Display Name">
+				  </div>
+				  <div class="form-group submit">
+				  <button type="submit" class="btn col-xs-6" ng-click="update(user)">Submit<span class="icon"></span></button>
+				  </div>
+				</form>
+			</div>
+		</div>
+		<div class="col-md-8" role="main">
+			<div class="main_content">
+				<h1 class="main_title">Heading</h1>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+				
+				<ul class="list">
+					<li class="list_item col-md-6 item_1"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_2"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_3"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_4"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_5"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_6"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_7"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_8"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_9"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_10"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_11"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_12"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_13"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_14"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_15"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+					<li class="list_item col-md-6 item_16"><span class="icon"></span><a href="#">Lorem ipsum dolor sit</a></li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	<!-- Contents end -->
+	<div id="pop_content">
+		<div class="content">
+			<div class="content_title"><span class="close"></span>Lorem ipsum dolor sit</div>
+			<div class="content_body">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </div>
+		</div>
+	</div>
+   </main>
+   <footer class="container" role="contentinfo">
+   	<div class="pages col-md-3">
+	   	<h2 class="title">pages</h2>
+	   	<nav class="col-md-9">
+	   	<ul class="nav navbar-nav">
+	        <li class="first">
+	          <a href="#">Home</a>
+	        </li>
+	        <li>
+	          <a href="#">Products</a>
+	        </li>
+	        <li>
+	          <a href="#">News</a>
+	        </li>
+	        <li>
+	          <a href="#">Community</a>
+	        </li>
+	        <li>
+	          <a href="#">Services</a>
+	        </li>
+	        <li>
+	          <a href="#">Partners</a>
+	        </li>
+	        <li>
+	          <a href="#">Download</a>
+	        </li>
+	        <li class="last">
+	          <a href="#">Careers</a>
+	        </li>
+	   	</ul>
+	   	</nav>
+	   	<nav class="col-md-3">
+		<ul class="nav navbar-nav">
+			<li class="icons first">
+	          <a href="#"><span class="facebook"></span></a>
+	        </li>
+	        <li class="icons">
+	          <a href="#"><span class="twitter"></span></a>
+	        </li>
+			 <li class="icons">
+	          <a href="#"><span class="comment"></span></a>
+	        </li>
+	        <li class="icons last">
+	          <a href="#"><span class="youtube"></span></a>
+	        </li>        
+	     </ul>
+	   	</nav>
+   	</div>
+   	<div class="twitter col-md-6">
+	   	<h2 class="title">twitter</h2>
+	   	<div class="twitter_item item_1 first">
+		   	<div class="items item_title"><a href="#">Company</a> @Company</div>
+		   	<div class="items item_time">20 Dec</div>
+		   	<div class="itmes item_content">
+			   	<p>Lorem ipsim dolor sit, lorem ipsum dolor</p> 
+			   	<a href="#">http://www.company.com/2014/01/01/gras...</a>
+		   	</div>
+	   	</div>
+	   	<div class="twitter_item item_2">
+		   	<div class="items item_title"><a href="#">Company</a> @Company</div>
+		   	<div class="items item_time">20 Dec</div>
+		   	<div class="itmes item_content">
+			   	<p>Lorem ipsum dolor sir dolor sit dolor sit</p>
+			   	<p>Lorem ipsum dolor sir dolor sit dolor sit</p>
+		   	</div>
+	   	</div>
+   	</div>
+   	<div class="newsletter col-md-3">
+	   	<h2 class="title">newsletter</h2>
+	   	<form role="form">
+		    <div class="form-group">
+		      <label class="sr-only" for="newsletter">email</label>
+		      <span class="email"></span><input type="email" id="newsletter" class="form-control" placeholder="Enter your email address...">
+		    </div>
+		    <div class="checkbox">
+		      <label  class="css-label">
+		      <input type="checkbox" class="css-checkbox" > I agree to the <a href="#">Privacy Notice</a>.
+		      </label>
+		    </div>
+		    <div class="form-group submit">
+		    <button type="submit" class="btn col-xs-8">Sign Up<span class="icon"></span></button>
+		    </div>
+		</form>
+   	</div>
+   </footer>
+   <div class="copyright container">Copyright © 2001-2013, company name Inc.. All rights reserved. Terms of Use  |  Privacy Policy</div>
+
+  </body>
+</html>
